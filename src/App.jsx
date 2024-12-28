@@ -1,9 +1,17 @@
-import OurProducts from "./components/OurProducts";
+import { BrownComponent, Declaration, Intro, OurProducts, Paramjit, ProductCategories, Services } from "./components";
+import ExporterDisclaimer from "./components/ExporterDisclaimer";
 
 function App() {
   return (
     <>
-      <OurProducts />
+      < Intro/>
+      <ProductCategories/>
+      <Services/>
+      <Declaration/>
+      <OurProducts/>
+      <ExporterDisclaimer/>
+      <BrownComponent/>
+      <Paramjit/>
     </>
   );
 }

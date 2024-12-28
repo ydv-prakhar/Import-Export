@@ -1,6 +1,6 @@
 function Intro() {
   return (
-    <div className="flex flex-col md:flex-row̥ bg-white lg:mx-[10%] mx-[5%]">
+    <div className="flex lg:flex-row flex-col md:flex-row̥ bg-white lg:mx-[10%] mx-[5%]">
       <div className="lg:basis-[70%] md:basis-[60%] my-[4%] ">
         <h2 className="text-[#996A2D] font-[700] text-[34px] my-[22px]">
           Global Trading Distribution & Consulting
@@ -18,7 +18,7 @@ function Intro() {
           loyalty, we guarantee assistance by qualified consultants.
         </p>
       </div>
-      <div className="w-full lg:basis-[30%] md:basis-[40%] my-auto md:block hidden">
+      <div className="w-full lg:basis-[30%] md:basis-[40%] my-auto">
         <img src="public\mudra-scaled.jpg" className="w-full"></img>
       </div>
     </div>
