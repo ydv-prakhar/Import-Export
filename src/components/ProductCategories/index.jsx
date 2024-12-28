@@ -1,6 +1,6 @@
-import Card from './Card';
+import Card from '../Card';
 
-export const ProductCategories = () => {
+const ProductCategories = () => {
   return (
     <div className="bg-gray-400 p-5">
       <div className="text-[32px] text-center font-[600] underline underline-offset-[20px] decoration-orange-300">
@@ -21,3 +21,5 @@ export const ProductCategories = () => {
     </div>
   );
 };
+
+export default ProductCategories;
