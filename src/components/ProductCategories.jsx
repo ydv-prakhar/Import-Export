@@ -1,4 +1,4 @@
-import Card from "./Card"
+import Card from './Card';
 
 export const ProductCategories = () => {
   return (
@@ -8,43 +8,16 @@ export const ProductCategories = () => {
       </div>
 
       <div className="flex flex-wrap mt-5 gap-[10%]">
-        <Card
-          image="public\agro-1-e1599633611610.jpg"
-          text="AGRO-COMMODITIES"
-        />
-        <Card
-          image="public\agro-1-e1599633611610.jpg"
-          text="AGRO-COMMODITIES"
-        />
-        <Card
-          image="public\agro-1-e1599633611610.jpg"
-          text="AGRO-COMMODITIES"
-        />
-        <Card
-          image="public\agro-1-e1599633611610.jpg"
-          text="AGRO-COMMODITIES"
-        />
-        <Card
-          image="public\agro-1-e1599633611610.jpg"
-          text="AGRO-COMMODITIES"
-        />
-        <Card
-          image="public\agro-1-e1599633611610.jpg"
-          text="AGRO-COMMODITIES"
-        />
-        <Card
-          image="public\agro-1-e1599633611610.jpg"
-          text="AGRO-COMMODITIES"
-        />
-        <Card
-          image="public\agro-1-e1599633611610.jpg"
-          text="AGRO-COMMODITIES"
-        />
-        <Card
-          image="public\agro-1-e1599633611610.jpg"
-          text="AGRO-COMMODITIES"
-        />
+        <Card image="public\agro-1-e1599633611610.jpg" text="AGRO-COMMODITIES" />
+        <Card image="public\agro-1-e1599633611610.jpg" text="AGRO-COMMODITIES" />
+        <Card image="public\agro-1-e1599633611610.jpg" text="AGRO-COMMODITIES" />
+        <Card image="public\agro-1-e1599633611610.jpg" text="AGRO-COMMODITIES" />
+        <Card image="public\agro-1-e1599633611610.jpg" text="AGRO-COMMODITIES" />
+        <Card image="public\agro-1-e1599633611610.jpg" text="AGRO-COMMODITIES" />
+        <Card image="public\agro-1-e1599633611610.jpg" text="AGRO-COMMODITIES" />
+        <Card image="public\agro-1-e1599633611610.jpg" text="AGRO-COMMODITIES" />
+        <Card image="public\agro-1-e1599633611610.jpg" text="AGRO-COMMODITIES" />
       </div>
     </div>
   );
-}
+};
