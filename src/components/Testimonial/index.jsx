@@ -1,4 +1,4 @@
-import Paramjit from '../../../public/Paramjit.jpg';
+import Paramjit from '../../../public/PARAMJIT.jpg';
 
 const Testimonial = () => {
   return (
