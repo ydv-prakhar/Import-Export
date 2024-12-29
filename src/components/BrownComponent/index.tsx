@@ -1,5 +1,5 @@
 import React from 'react';
-import homePageImage from '../../../public/home-page-image.png';
+import homePageImage from '../../../public/homeImg.png';
 
 const BrownComponent = () => {
   return (
