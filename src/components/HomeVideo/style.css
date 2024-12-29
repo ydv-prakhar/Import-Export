@@ -1,0 +1,17 @@
+.videoTag {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -1; /* Keeps the video in the background */
+}
+
+.videoContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden; /* Prevents scrolling caused by the overflowing video */
+}
