@@ -1,3 +1,5 @@
+import mudraScale from '../../../public/mudra-scaled.jpg';
+
 function Intro() {
   return (
     <div className="flex lg:flex-row flex-col md:flex-row̥ bg-white lg:mx-[10%] mx-[5%]">
@@ -19,7 +21,7 @@ function Intro() {
         </p>
       </div>
       <div className="w-full lg:basis-[30%] md:basis-[40%] my-auto">
-        <img src="public\mudra-scaled.jpg" className="w-full"></img>
+        <img src={mudraScale} className="w-full"></img>
       </div>
     </div>
   );
