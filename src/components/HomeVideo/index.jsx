@@ -6,7 +6,7 @@ const HomeVideo = () => {
     <>
       <div className="videoContainer">
         <video className="videoTag" autoPlay loop muted>
-          <source src="../../../public/home-page-video.mp4" type="video/mp4" />
+          <source src="assets/home-page-video.mp4" type="video/mp4" />
         </video>
       </div>
     </>

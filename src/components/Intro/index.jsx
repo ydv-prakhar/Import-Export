@@ -21,7 +21,7 @@ function Intro() {
         </p>
       </div>
       <div className="w-full lg:basis-[30%] md:basis-[40%] my-auto">
-        <img src="../../../public/mudra-scaled.jpg" className="w-full"></img>
+        <img src="assets/mudra-scaled.jpg" className="w-full"></img>
       </div>
     </div>
   );

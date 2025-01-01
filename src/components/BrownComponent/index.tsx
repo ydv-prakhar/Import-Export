@@ -10,7 +10,7 @@ const BrownComponent = () => {
         </div>
         <div className="flex gap-[5%] p-5 md:flex-row flex-col">
           <div className="w-full md:w-[45%]">
-            <img src="../../../public/homeImg.png" alt="" className="w-full" />
+            <img src="assets/homeImg.png" alt="" className="w-full" />
           </div>
           <div className="w-full md:w-[45%]">
             <p className="p-4 text-[white] text-[17px]">
