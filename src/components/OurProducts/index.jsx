@@ -1,5 +1,5 @@
 import ProductCard from './ProductCard';
-import almonds from '../../../public/Almonds.webp';
+// import almonds from '../../../public/Almonds.webp';
 
 const OurProducts = () => {
   return (
@@ -7,15 +7,16 @@ const OurProducts = () => {
       <div className="text-center text-[20px] my-[20px] font-[400] underline underline-offset-[20px] decoration-orange-500">
         Our Products{' '}
         <div className="flex flex-wrap mt-8">
-          <ProductCard image={almonds} text="Almonds" />
-          <ProductCard image={almonds} text="Almonds" />
-          <ProductCard image={almonds} text="Almonds" />
-          <ProductCard image={almonds} text="Almonds" />
-          <ProductCard image={almonds} text="Almonds" />
-          <ProductCard image={almonds} text="Almonds" />
-          <ProductCard image={almonds} text="Almonds" />
-          <ProductCard image={almonds} text="Almonds" />
-          <ProductCard image={almonds} text="Almonds" />
+          <ProductCard image="../../../public/Almonds.webp" text="Almonds" />
+          <ProductCard image="../../../public/Almonds.webp" text="Almonds" />
+          <ProductCard image="../../../public/Almonds.webp" text="Almonds" />
+          <ProductCard image="../../../public/Almonds.webp" text="Almonds" />
+          <ProductCard image="../../../public/Almonds.webp" text="Almonds" />
+          <ProductCard image="../../../public/Almonds.webp" text="Almonds" />
+          <ProductCard image="../../../public/Almonds.webp" text="Almonds" />
+          <ProductCard image="../../../public/Almonds.webp" text="Almonds" />
+          <ProductCard image="../../../public/Almonds.webp" text="Almonds" />
+          
         </div>
       </div>
     </div>

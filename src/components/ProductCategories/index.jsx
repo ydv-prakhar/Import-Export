@@ -1,5 +1,5 @@
 import Card from '../Card';
-import image1 from '../../../public/image1.jpg';
+// import image1 from '../../../public/image1.jpg';
 
 const ProductCategories = () => {
   return (
@@ -9,15 +9,15 @@ const ProductCategories = () => {
       </div>
 
       <div className="flex flex-wrap mt-5 gap-[10%]">
-        <Card image={image1} text="AGRO-COMMODITIES" />
-        <Card image={image1} text="AGRO-COMMODITIES" />
-        <Card image={image1} text="AGRO-COMMODITIES" />
-        <Card image={image1} text="AGRO-COMMODITIES" />
-        <Card image={image1} text="AGRO-COMMODITIES" />
-        <Card image={image1} text="AGRO-COMMODITIES" />
-        <Card image={image1} text="AGRO-COMMODITIES" />
-        <Card image={image1} text="AGRO-COMMODITIES" />
-        <Card image={image1} text="AGRO-COMMODITIES" />
+        <Card image="../../../public/image1.jpg" text="AGRO-COMMODITIES" />
+        <Card image="../../../public/image1.jpg" text="AGRO-COMMODITIES" />
+        <Card image="../../../public/image1.jpg" text="AGRO-COMMODITIES" />
+        <Card image="../../../public/image1.jpg" text="AGRO-COMMODITIES" />
+        <Card image="../../../public/image1.jpg" text="AGRO-COMMODITIES" />
+        <Card image="../../../public/image1.jpg" text="AGRO-COMMODITIES" />
+        <Card image="../../../public/image1.jpg" text="AGRO-COMMODITIES" />
+        <Card image="../../../public/image1.jpg" text="AGRO-COMMODITIES" />
+        <Card image="../../../public/image1.jpg" text="AGRO-COMMODITIES" />
       </div>
     </div>
   );

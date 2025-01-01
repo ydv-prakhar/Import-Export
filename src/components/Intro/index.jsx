@@ -1,4 +1,4 @@
-import mudraScale from '../../../public/mudra-scaled.jpg';
+// import mudraScale from '../../../public/mudra-scaled.jpg';
 
 function Intro() {
   return (
@@ -21,7 +21,7 @@ function Intro() {
         </p>
       </div>
       <div className="w-full lg:basis-[30%] md:basis-[40%] my-auto">
-        <img src={mudraScale} className="w-full"></img>
+        <img src="../../../public/mudra-scaled.jpg" className="w-full"></img>
       </div>
     </div>
   );
