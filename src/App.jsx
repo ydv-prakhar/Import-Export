@@ -8,6 +8,7 @@ import {
   ProductCategories,
   Services
 } from './components';
+import ContactForm from './components/Contact Form';
 import ExporterDisclaimer from './components/ExporterDisclaimer';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <ExporterDisclaimer />
       <BrownComponent />
       <Testimonial />
+      <ContactForm/>
     </>
   );
 }
